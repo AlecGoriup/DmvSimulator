@@ -3,8 +3,8 @@ import java.util.Random;
 public class DmvSimulator {
     public static void main(String[] args) {
 
-        int max = 100;
-        int min = 1;
+        int max = 200;
+        int min = 100;
         int range = max - min + 1;
 
         System.out.println("Welcome to the DMV.");
@@ -18,8 +18,8 @@ public class DmvSimulator {
         while (count != numberGiven + 1 || wrapAround) {
             System.out.println("Number: " + count + "!");
 
-            if (count == 100) {
-                count = 1;
+            if (count == 200) {
+                count = 100;
                 wrapAround = false;
             } else {
                 count++;
