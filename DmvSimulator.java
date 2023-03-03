@@ -4,7 +4,7 @@ public class DmvSimulator {
     public static void main(String[] args) {
 
         int max = 200;
-        int min = 100;
+        int min = 0;
         int range = max - min + 1;
 
         System.out.println("Welcome to the DMV.");
@@ -19,7 +19,7 @@ public class DmvSimulator {
             System.out.println("Number: " + count + "!");
 
             if (count == 200) {
-                count = 100;
+                count = 0;
                 wrapAround = false;
             } else {
                 count++;
