@@ -27,7 +27,7 @@ public class DmvSimulator {
 
         }
 
-        System.out.println("You do not have the required paperwork");
+        System.out.println("You need to bring the correct paperwork. We can't help you.");
 
     }
 }
