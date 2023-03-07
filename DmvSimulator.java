@@ -34,8 +34,9 @@ public class DmvSimulator {
         }
 
         else {
-            System.out.println("You need to bring the correct paperwork. We can't help you.");
+            System.out.println("You need to bring the correct paperwork. We can't help you. Mwahahahaha!");
         }
+
 
     }
 }
