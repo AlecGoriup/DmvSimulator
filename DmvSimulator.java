@@ -27,7 +27,15 @@ public class DmvSimulator {
 
         }
 
-        System.out.println("You need to bring the correct paperwork. We can't help you.");
+        int allGood = (int) (Math.random() * (100 - 1 + 1)) + 1;
+
+        if (allGood == 1) {
+            System.out.println("You have all the required paperwork! You're all set!");
+        }
+
+        else {
+            System.out.println("You need to bring the correct paperwork. We can't help you.");
+        }
 
     }
 }
